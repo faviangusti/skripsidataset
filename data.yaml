@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['boots', 'gloves', 'helmet', 'human', 'no helmet', 'no vest', 'vest']
+
+roboflow:
+  workspace: spencerworkspace
+  project: ppe-detection-zp4a6
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/spencerworkspace/ppe-detection-zp4a6/dataset/2
