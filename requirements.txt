@@ -4,4 +4,3 @@ ultralytics
 opencv-python-headless
 av
 numpy
-pillow
