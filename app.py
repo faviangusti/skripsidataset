@@ -221,7 +221,7 @@ def camera_mode(model: YOLO, confidence: float) -> None:
         video_processor_factory=lambda: YOLOVideoProcessor(
             model=model, confidence_threshold=confidence
         ),
-        # rtc_configuration=RTC_CONFIGURATION,
+        rtc_configuration=RTC_CONFIGURATION,
         media_stream_constraints={"video": True, "audio": False},
         async_processing=True,
     )
