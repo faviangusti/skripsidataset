@@ -1,9 +1,8 @@
-streamlit
-streamlit-webrtc
-ultralytics
-opencv-python-headless
-Pillow
-numpy
-av
-aioice
-aiortc
+streamlit>=1.38
+streamlit-webrtc>=0.76.2
+ultralytics>=8.3
+opencv-python-headless>=4.10
+numpy>=1.26,<2.1
+Pillow>=10.4
+av>=13.0
+aiortc>=1.
