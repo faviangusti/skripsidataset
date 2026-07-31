@@ -217,7 +217,7 @@ def camera_mode(model: YOLO, confidence: float) -> None:
 
     ctx = webrtc_streamer(
         key="ppe-camera-realtime",
-        desired_playing_state=st.session_state.camera_running,
+        # desired_playing_state=st.session_state.camera_running,
         video_processor_factory=lambda: YOLOVideoProcessor(
             model=model, confidence_threshold=confidence
         ),
